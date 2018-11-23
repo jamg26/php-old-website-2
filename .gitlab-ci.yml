@@ -5,4 +5,5 @@ before_script:
 
 test:app:
   script:
+    - cd /usr/local/bin/phpunit
     - phpunit --configuration phpunit_myapp.xml
