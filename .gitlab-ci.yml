@@ -2,8 +2,3 @@ image: php:7.2.12
 
 before_script:
   - bash ci/docker_install.sh > /dev/null
-
-test:app:
-  script:
-    - cd /usr/local/bin/phpunit
-    - phpunit --configuration phpunit_myapp.xml
