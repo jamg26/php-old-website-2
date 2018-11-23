@@ -2,7 +2,3 @@ image: php:7.1-apache
 
 before_script:
   - bash ci/docker_install.sh > /dev/null
-
-test:app:
-  script:
-    - phpunit --configuration phpunit_myapp.xml
