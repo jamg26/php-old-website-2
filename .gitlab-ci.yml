@@ -1,9 +1,8 @@
+image: php:7.1-apache
+
 before_script:
-  - composer install
+  - bash ci/docker_install.sh > /dev/null
 
-stages:
-  - test
-
-test:
+test:app:
   script:
-    - php vendor/phpunit/phpunit/phpunit
+    - phpunit --configuration phpunit_myapp.xml
