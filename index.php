@@ -16,7 +16,6 @@ session_start();
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/css.css" rel="stylesheet">
 </head>
-<!-- FRONT END CODING BEGIN -->
 
 <body>
     <!-- this is the header of logged user -->
